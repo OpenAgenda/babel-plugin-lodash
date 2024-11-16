@@ -1,8 +1,8 @@
 "use strict";
 
-var _bind2 = _interopRequireDefault(require("lodash/bind"));
+var _bind2 = _interopRequireDefault(require("lodash/bind.js"));
 
-var _partial2 = _interopRequireDefault(require("lodash/fp/partial"));
+var _partial2 = _interopRequireDefault(require("lodash/fp/partial.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

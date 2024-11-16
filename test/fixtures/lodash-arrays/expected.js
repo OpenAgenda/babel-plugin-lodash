@@ -1,16 +1,16 @@
 "use strict";
 
-var _partial2 = _interopRequireDefault(require("lodash/fp/partial"));
+var _partial2 = _interopRequireDefault(require("lodash/fp/partial.js"));
 
-var _toUpper2 = _interopRequireDefault(require("lodash/toUpper"));
+var _toUpper2 = _interopRequireDefault(require("lodash/toUpper.js"));
 
-var _round2 = _interopRequireDefault(require("lodash/round"));
+var _round2 = _interopRequireDefault(require("lodash/round.js"));
 
-var _isString2 = _interopRequireDefault(require("lodash/isString"));
+var _isString2 = _interopRequireDefault(require("lodash/isString.js"));
 
-var _isNumber2 = _interopRequireDefault(require("lodash/isNumber"));
+var _isNumber2 = _interopRequireDefault(require("lodash/isNumber.js"));
 
-var _cond2 = _interopRequireDefault(require("lodash/cond"));
+var _cond2 = _interopRequireDefault(require("lodash/cond.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

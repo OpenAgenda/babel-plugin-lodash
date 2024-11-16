@@ -1,24 +1,24 @@
 "use strict";
 
-var _reject3 = _interopRequireDefault(require("ramda/src/reject"));
+var _reject3 = _interopRequireDefault(require("ramda/src/reject.js"));
 
-var _values2 = _interopRequireDefault(require("ramda/src/values"));
+var _values2 = _interopRequireDefault(require("ramda/src/values.js"));
 
-var _add3 = _interopRequireDefault(require("ramda/src/add"));
+var _add3 = _interopRequireDefault(require("ramda/src/add.js"));
 
-var _take3 = _interopRequireDefault(require("ramda/src/take"));
+var _take3 = _interopRequireDefault(require("ramda/src/take.js"));
 
-var _map3 = _interopRequireDefault(require("ramda/src/map"));
+var _map3 = _interopRequireDefault(require("ramda/src/map.js"));
 
-var _take4 = _interopRequireDefault(require("lodash-bound/take"));
+var _take4 = _interopRequireDefault(require("lodash-bound/take.js"));
 
-var _reject4 = _interopRequireDefault(require("lodash-bound/reject"));
+var _reject4 = _interopRequireDefault(require("lodash-bound/reject.js"));
 
-var _map4 = _interopRequireDefault(require("lodash-bound/map"));
+var _map4 = _interopRequireDefault(require("lodash-bound/map.js"));
 
-var _add4 = _interopRequireDefault(require("lodash-bound/add"));
+var _add4 = _interopRequireDefault(require("lodash-bound/add.js"));
 
-var _concat2 = _interopRequireDefault(require("async/concat"));
+var _concat2 = _interopRequireDefault(require("async/concat.js"));
 
 var _fs = _interopRequireDefault(require("fs"));
 

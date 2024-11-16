@@ -1,12 +1,12 @@
 "use strict";
 
-var _noop2 = _interopRequireDefault(require("lodash-compat/utility/noop"));
+var _noop2 = _interopRequireDefault(require("lodash-compat/utility/noop.js"));
 
-var _map2 = _interopRequireDefault(require("lodash-compat/collection/map"));
+var _map2 = _interopRequireDefault(require("lodash-compat/collection/map.js"));
 
-var _identity2 = _interopRequireDefault(require("lodash-compat/utility/identity"));
+var _identity2 = _interopRequireDefault(require("lodash-compat/utility/identity.js"));
 
-var _filter2 = _interopRequireDefault(require("lodash-compat/collection/filter"));
+var _filter2 = _interopRequireDefault(require("lodash-compat/collection/filter.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

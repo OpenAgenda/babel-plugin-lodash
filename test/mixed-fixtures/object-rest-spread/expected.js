@@ -1,6 +1,6 @@
 "use strict";
 
-var _keys2 = _interopRequireDefault(require("lodash/keys"));
+var _keys2 = _interopRequireDefault(require("lodash/keys.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

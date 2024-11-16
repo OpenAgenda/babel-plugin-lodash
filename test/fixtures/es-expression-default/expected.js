@@ -1,16 +1,16 @@
 "use strict";
 
-var _pick2 = _interopRequireDefault(require("lodash-es/pick"));
+var _pick2 = _interopRequireDefault(require("lodash-es/pick.js"));
 
-var _omit2 = _interopRequireDefault(require("lodash-es/omit"));
+var _omit2 = _interopRequireDefault(require("lodash-es/omit.js"));
 
-var _filter2 = _interopRequireDefault(require("lodash-es/filter"));
+var _filter2 = _interopRequireDefault(require("lodash-es/filter.js"));
 
-var _map2 = _interopRequireDefault(require("lodash-es/map"));
+var _map2 = _interopRequireDefault(require("lodash-es/map.js"));
 
-var _noop2 = _interopRequireDefault(require("lodash-es/noop"));
+var _noop2 = _interopRequireDefault(require("lodash-es/noop.js"));
 
-var _identity2 = _interopRequireDefault(require("lodash-es/identity"));
+var _identity2 = _interopRequireDefault(require("lodash-es/identity.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

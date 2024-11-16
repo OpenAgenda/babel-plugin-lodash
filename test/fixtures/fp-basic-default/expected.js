@@ -1,12 +1,12 @@
 "use strict";
 
-var _reject2 = _interopRequireDefault(require("lodash/fp/reject"));
+var _reject2 = _interopRequireDefault(require("lodash/fp/reject.js"));
 
-var _take2 = _interopRequireDefault(require("lodash/fp/take"));
+var _take2 = _interopRequireDefault(require("lodash/fp/take.js"));
 
-var _add2 = _interopRequireDefault(require("lodash/fp/add"));
+var _add2 = _interopRequireDefault(require("lodash/fp/add.js"));
 
-var _map2 = _interopRequireDefault(require("lodash/fp/map"));
+var _map2 = _interopRequireDefault(require("lodash/fp/map.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

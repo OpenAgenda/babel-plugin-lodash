@@ -1,20 +1,20 @@
 "use strict";
 
-var _reject3 = _interopRequireDefault(require("lodash/fp/reject"));
+var _reject3 = _interopRequireDefault(require("lodash/fp/reject.js"));
 
-var _add3 = _interopRequireDefault(require("lodash/fp/add"));
+var _add3 = _interopRequireDefault(require("lodash/fp/add.js"));
 
-var _take3 = _interopRequireDefault(require("lodash/fp/take"));
+var _take3 = _interopRequireDefault(require("lodash/fp/take.js"));
 
-var _map3 = _interopRequireDefault(require("lodash/fp/map"));
+var _map3 = _interopRequireDefault(require("lodash/fp/map.js"));
 
-var _reject4 = _interopRequireDefault(require("lodash/reject"));
+var _reject4 = _interopRequireDefault(require("lodash/reject.js"));
 
-var _add4 = _interopRequireDefault(require("lodash/add"));
+var _add4 = _interopRequireDefault(require("lodash/add.js"));
 
-var _take4 = _interopRequireDefault(require("lodash/take"));
+var _take4 = _interopRequireDefault(require("lodash/take.js"));
 
-var _map4 = _interopRequireDefault(require("lodash/map"));
+var _map4 = _interopRequireDefault(require("lodash/map.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

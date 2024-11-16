@@ -4,7 +4,7 @@ import mapping from './mapping'
 
 /*----------------------------------------------------------------------------*/
 
-function resolvePath(pkgStore, name, path) {
+function resolvePath(pkgStore, name, path, ext) {
   let { base, id } = pkgStore
   const lower = name.toLowerCase()
   const module = mapping.modules.get(id)
@@ -20,11 +20,11 @@ function resolvePath(pkgStore, name, path) {
     }
   }
 
-  return id + '/' + (base ? base + '/' : '') + module.get(base).get(lower)
+  return id + '/' + (base ? base + '/' : '') + module.get(base).get(lower) + ext
 }
 
-function importModule(pkgStore, name, path) {
-  return addDefault(path, resolvePath(pkgStore, name, path), { nameHint: name })
+function importModule(pkgStore, name, path, ext) {
+  return addDefault(path, resolvePath(pkgStore, name, path, ext), { nameHint: name })
 }
 
 export default _.memoize(importModule, (pkgStore, name) => (pkgStore.path + '/' + name).toLowerCase())

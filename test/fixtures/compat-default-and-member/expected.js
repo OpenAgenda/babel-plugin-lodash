@@ -1,12 +1,12 @@
 "use strict";
 
-var _reject2 = _interopRequireDefault(require("lodash-compat/collection/reject"));
+var _reject2 = _interopRequireDefault(require("lodash-compat/collection/reject.js"));
 
-var _add2 = _interopRequireDefault(require("lodash-compat/math/add"));
+var _add2 = _interopRequireDefault(require("lodash-compat/math/add.js"));
 
-var _take2 = _interopRequireDefault(require("lodash-compat/array/take"));
+var _take2 = _interopRequireDefault(require("lodash-compat/array/take.js"));
 
-var _map2 = _interopRequireDefault(require("lodash-compat/collection/map"));
+var _map2 = _interopRequireDefault(require("lodash-compat/collection/map.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

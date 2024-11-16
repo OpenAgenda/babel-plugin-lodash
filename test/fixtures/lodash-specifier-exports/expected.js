@@ -28,9 +28,9 @@ Object.defineProperty(exports, "bar", {
   }
 });
 
-var _map2 = _interopRequireDefault(require("lodash/fp/map"));
+var _map2 = _interopRequireDefault(require("lodash/fp/map.js"));
 
-var _isObject2 = _interopRequireDefault(require("lodash/isObject"));
+var _isObject2 = _interopRequireDefault(require("lodash/isObject.js"));
 
 var _foo = _interopRequireDefault(require("foo"));
 

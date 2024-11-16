@@ -5,11 +5,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.formatters = void 0;
 
-var _snakeCase2 = _interopRequireDefault(require("lodash/fp/snakeCase"));
+var _snakeCase2 = _interopRequireDefault(require("lodash/fp/snakeCase.js"));
 
-var _kebabCase2 = _interopRequireDefault(require("lodash/fp/kebabCase"));
+var _kebabCase2 = _interopRequireDefault(require("lodash/fp/kebabCase.js"));
 
-var _camelCase2 = _interopRequireDefault(require("lodash/fp/camelCase"));
+var _camelCase2 = _interopRequireDefault(require("lodash/fp/camelCase.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

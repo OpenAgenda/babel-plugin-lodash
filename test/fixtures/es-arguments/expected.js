@@ -1,8 +1,8 @@
 "use strict";
 
-var _map2 = _interopRequireDefault(require("lodash-es/map"));
+var _map2 = _interopRequireDefault(require("lodash-es/map.js"));
 
-var _capitalize2 = _interopRequireDefault(require("lodash-es/capitalize"));
+var _capitalize2 = _interopRequireDefault(require("lodash-es/capitalize.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

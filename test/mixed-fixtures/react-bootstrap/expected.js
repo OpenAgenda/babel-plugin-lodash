@@ -1,6 +1,6 @@
 "use strict";
 
-var _Alert2 = _interopRequireDefault(require("react-bootstrap/lib/Alert"));
+var _Alert2 = _interopRequireDefault(require("react-bootstrap/lib/Alert.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

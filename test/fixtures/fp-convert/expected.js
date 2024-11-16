@@ -1,8 +1,8 @@
 "use strict";
 
-var _map2 = _interopRequireDefault(require("lodash/map"));
+var _map2 = _interopRequireDefault(require("lodash/map.js"));
 
-var _filter2 = _interopRequireDefault(require("lodash/filter"));
+var _filter2 = _interopRequireDefault(require("lodash/filter.js"));
 
 var _convert = _interopRequireDefault(require("lodash-fp/convert"));
 

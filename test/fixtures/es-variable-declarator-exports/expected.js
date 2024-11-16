@@ -5,9 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.case3 = exports.case2 = exports.case1 = void 0;
 
-var _kebabCase2 = _interopRequireDefault(require("lodash-es/kebabCase"));
+var _kebabCase2 = _interopRequireDefault(require("lodash-es/kebabCase.js"));
 
-var _camelCase2 = _interopRequireDefault(require("lodash-es/camelCase"));
+var _camelCase2 = _interopRequireDefault(require("lodash-es/camelCase.js"));
 
 var _string = require("string");
 

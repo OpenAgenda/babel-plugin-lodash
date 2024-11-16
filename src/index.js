@@ -53,6 +53,7 @@ export default function lodash({ types }) {
   const visitor = {
     Program(path, state) {
       const { ids } = _.assign(mapping, config(state.opts))
+      const { ext = '.js' } = state.opts
       const { file } = path.hub
 
       // Clear tracked method imports.
@@ -157,7 +158,7 @@ export default function lodash({ types }) {
               if (isChain && refPath.parentPath.isCallExpression()) {
                 throw refPath.buildCodeFrameError(CHAIN_ERROR)
               }
-              const { name } = importModule(pkgStore, imported, refPath)
+              const { name } = importModule(pkgStore, imported, refPath, ext)
               refPath.replaceWith({ type, name })
             }
             else if (parentPath.isMemberExpression()) {
@@ -169,7 +170,7 @@ export default function lodash({ types }) {
                 throw refPath.buildCodeFrameError(CHAIN_ERROR)
               }
 
-              const { name } = importModule(pkgStore, key, refPath)
+              const { name } = importModule(pkgStore, key, refPath, ext)
               parentPath.replaceWith({ type, name })
             }
             else if (isLodash) {
@@ -194,7 +195,8 @@ export default function lodash({ types }) {
       }
     },
 
-    ExportNamedDeclaration(path) {
+    ExportNamedDeclaration(path, state) {
+      const { ext = '.js' } = state.opts
       const { node } = path
       const pkgPath = _.get(node, 'source.value')
       const pkgStore = store.get(pkgPath)
@@ -205,7 +207,7 @@ export default function lodash({ types }) {
 
       node.source = null
       _.each(node.specifiers, (spec) => {
-        spec.local = importModule(pkgStore, spec.local.name, path)
+        spec.local = importModule(pkgStore, spec.local.name, path, ext)
       })
     }
   }
